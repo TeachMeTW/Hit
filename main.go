@@ -1,7 +1,6 @@
 package main
 
 import (
-	"github.com/teachmetw/Hit"
 	"github.com/writeas/web-core/log"
 	"os"
 	"os/signal"
@@ -14,12 +13,12 @@ func main() {
 	go func() {
 		<-c
 		log.Info("Shutting down...")
-		hitcounter.SaveCounts()
+		SaveCounts()
 		log.Info("Done.")
 		os.Exit(0)
 	}()
 
-	err := hitcounter.Serve()
+	err := Serve()
 	if err != nil {
 		log.Error("Unable to serve: %s", err)
 		os.Exit(1)

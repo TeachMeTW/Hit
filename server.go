@@ -1,4 +1,4 @@
-package hitcounter
+package main
 
 import (
 	"encoding/json"
