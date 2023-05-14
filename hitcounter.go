@@ -1,16 +1,19 @@
 package hitcounter
 
 import (
+	
 	"fmt"
 	"github.com/writeas/impart"
 	"github.com/writeas/web-core/bots"
 	"github.com/writeas/web-core/log"
+	"github.com/thebaer/hitcounter"
 	"image"
 	"image/color"
 	"image/gif"
 	"io/ioutil"
 	"net/http"
 	"time"
+	
 )
 
 var counts = map[string]uint64{}
