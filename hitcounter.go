@@ -6,7 +6,6 @@ import (
 	"github.com/writeas/impart"
 	"github.com/writeas/web-core/bots"
 	"github.com/writeas/web-core/log"
-	"github.com/thebaer/hitcounter"
 	"image"
 	"image/color"
 	"image/gif"
