@@ -11,17 +11,6 @@ import (
 	"io/ioutil"
 	"net/http"
 	"time"
-
-	"bytes"
-	"github.com/labstack/echo"
-	"github.com/labstack/echo/middleware"
-	"image"
-	"image/png"
-	"log"
-	"net/http"
-	"os"
-	"strconv"
-	"time"
 )
 
 var counts = map[string]uint64{}
