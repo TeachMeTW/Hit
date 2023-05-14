@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/thebaer/hitcounter"
+	"github.com/teachmetw/Hit"
 	"github.com/writeas/web-core/log"
 	"os"
 	"os/signal"

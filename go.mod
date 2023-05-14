@@ -1,4 +1,4 @@
-module github.com/thebaer/hitcounter
+module github.com/teachmetw/Hit
 
 go 1.13
 
